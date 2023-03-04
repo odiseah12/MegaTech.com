@@ -99,11 +99,13 @@ button:hover{
     height: 50vh;
 }
 
-.portada{
+.portada h2{
     margin-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ca4172;
+    
 }
 .logo{
     display: flex;
@@ -111,7 +113,7 @@ button:hover{
     align-items: center;
 }
 footer{
-    width: 100%;
+    width:100%;
     background-color: #0a141d;
   
 }
@@ -126,7 +128,12 @@ footer .grupo-1{
 }
 
 
+.contenedor-productos .card{
+    width: 100%;
 
+    text-align: center;
+    } 
+    
 
 footer .grupo-1 .bos h2{
     color: #fff;
