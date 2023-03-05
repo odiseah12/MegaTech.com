@@ -16,7 +16,7 @@ font-family: 'Roboto', sans-serif;
 .hero{
     
     width: 100vw;
-    overflow-x: hidden;
+    height: 100vh;
     background-image: url(../img/vectores/vector-1.png);
     
 }
