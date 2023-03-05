@@ -14,7 +14,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .hero{
-   overflow-x: hidden
+    height:100vh;
     width: 100vw;
     
     background-image: url(../img/vectores/vector-1.png);
@@ -88,7 +88,7 @@ button:hover{
 }
 .main img{
     margin-top: 3em;
-  overflow-x: hidden;
+  
 }
 .medio{
    
