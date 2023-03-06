@@ -13,11 +13,10 @@ body {
 font-family: 'Roboto', sans-serif;
 }
 
-.hero{
-    
-    width: 100vw;
-    height: 100vh;
+.container{ 
+    text-align: center;
     background-image: url(../img/vectores/vector-1.png);
+    background-repeat: no-repeat;
     
 }
 .menu-bar{
@@ -35,6 +34,7 @@ font-family: 'Roboto', sans-serif;
 }
 .navbar .brand{
     color: #fff;
+    margin: 30px;
 }
 .menu li{
     list-style: none;
@@ -129,12 +129,6 @@ footer .grupo-1{
     padding: 45px 0;
 }
 
-
-.contenedor-productos .card{
-    width: 100%;
-
-    text-align: center;
-    } 
     
 
 footer .grupo-1 .bos h2{
