@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <link rel="stylesheet" href="./estilos/estilos.css">
       <script src="https://kit.fontawesome.com/0316b3a8d4.js" crossorigin="anonymous"></script>
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -12,55 +11,66 @@
     <title>Web online </title>
 </head>
 <body>
-    <div class="container" id="home">
-        <header>
-            <nav class="navbar">
-                <div class="brand">
-                    <h2>
-                        MegaTech
-                    </h2>
-                </div>
-                <ul class="menu" id="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Soporte</a></li>
-                    <li><a href="#">Contacto</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">MegaTech</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contacto
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Facebook</a></li>
+                      <li><a class="dropdown-item" href="#">Instagram</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Linkedin</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="·">Soporte</a>
+                  </li>
                 </ul>
-                <div class="menu-bar">
-                    <i class="fa-sharp fa-solid fa-bars p-3" id="menu-bar"></i>
-                </div>
-
-            </nav>
-        
-        </header>
-    
-    
-    <div class="main">
-        <div class="content-info">
-            <h1 class="display-1">MegaTech</h1>
-            <h3>Bienvenido</h3>
-            <div class="button-content">
-                <button class="btn-toBuy">Comprar Ahora</button>
-                <button class="read-more">Leer Mas</button>
+                
+              </div>
             </div>
+          </nav>
+        <div class="container-fluid main">
+            <div class="row ">
+                <div class="content-info col-xl-6 col-12">
+                <h1 class="display-1">MegaTech</h1>
+                <h3>Bienvenido</h3>
+                <div class="button-content">
+                    <button class="btn-toBuy">Comprar Ahora</button>
+                    <button class="read-more">Leer Mas</button>
+                </div>
+                </div>
+                <div class=" col-12 col-xl-6"><img width="300px"  src="./img/imagen principal.png" alt=""></div>
+                
             
+           
         </div>
-        <div data-aos="fade-up"
-        data-aos-anchor-placement="bottom-bottom"> <img src="./img/imagen principal.png" alt=""></div>
-       
-    </div> 
-
-
+        </div> 
+    
+    </header>
 
     <div data-aos="fade-up" class="portada"><h2>Productos</h2></div>
-    <br>
-    <br>
     <div class="logo"><img src="./img/vectores/logo apple.jpg" width="60px" class="img-thumbnail" alt="...">Apple</div>
-   <div class="row">
-    <div class="col-1 col-lg-3 w-100">
-    <div  class="row row-cols-1 row-cols-md-3 g-4">
-        <div   data-aos="zoom-in-down"class="col">
-          <div class="card">
+    
+    <div class="container">
+        <div class="row">
+    
+            <div class="col-6 col-xl-4  " data-aos="zoom-in"> <div class="card">
             <img src="./img/productos/usbiphone.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">USB apple Original</h5>
@@ -68,21 +78,16 @@
               <br>
               <button id="usb-apple-original" class="btn-toBuy">Comprar Ahora</button>
             </div>
-          </div>
-        </div>
-        <div   data-aos="zoom-in-down" class="col">
-          <div class="card">
+          </div></div>
+            <div class="col-6 col-xl-4 " data-aos="zoom-in"><div class="card">
             <img src="./img/productos/usb ipho9ne 2m.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">USB apple 2 Metros</h5>
               <p class="card-text">USB 2 Metros Original compatibles con todos los ios,ipads</p>
               <button id="usb-apple-2metros" class="btn-toBuy">Comprar Ahora</button>
             </div>
-          </div>
-        </div>
-        
-        <div   data-aos="zoom-in-down"class="col">
-          <div class="card">
+          </div></div>
+            <div class="col-6 col-xl-4 " data-aos="zoom-in"> <div class="card">
             <img src="./img/productos/auriiphone2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Auricular apple</h5>
@@ -91,23 +96,29 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-      <br>
-      <div class="col-2 col-lg-3 w-100">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div  data-aos="zoom-in-down" class="col">
-          <div class="card">
-            <img src="./img/productos/auricularesiphone.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Auricular apple Original</h5>
-              <p class="card-text">Auricular inalambrico Original compatibles con todos los ios,ipads</p>
-              <button id="usb-apple-inalambrico" class="btn-toBuy">Comprar Ahora</button>
-            </div>
-          </div>
+        <div class="col-6 col-xl-4 " data-aos="zoom-in"> 
+            <div class="card">
+                <img src="./img/productos/adaptador usb.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Adaptador USB apple</h5>
+                  <p class="card-text">Adaptador USB compatibles con ios,ipads</p>
+                  
+                  <button id="adaptador-apple-usb" class="btn-toBuy">Comprar Ahora</button>
+                </div>
+              </div>
         </div>
-        <div  data-aos="zoom-in-down" class="col">
-          <div class="card">
+        
+        <div class="col-6 col-xl-4 data-aos="zoom-in"">
+            <div class="card">
+                <img src="./img/productos/auricularesiphone.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Auricular apple Original</h5>
+                  <p class="card-text">Auricular inalambrico Original compatibles con todos los ios,ipads</p>
+                  <button id="usb-apple-inalambrico" class="btn-toBuy">Comprar Ahora</button>
+                </div>
+              </div>
+        </div>
+        <div class="col-6 col-xl-4" data-aos="zoom-in"><div class="card">
             <img src="./img/productos/adaptador usb.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Adaptador USB apple</h5>
@@ -115,102 +126,65 @@
               <br>
               <button id="adaptador-apple-usb" class="btn-toBuy">Comprar Ahora</button>
             </div>
-          </div>
-        </div>
-        
-        <div  data-aos="zoom-in-down" class="col">
-          <div class="card">
-            <img src="./img/productos/auriiphone2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Auricular apple</h5>
-              <p class="card-text">Auricular Original compatibles con todos los ios,ipads</p>
-              <button id="auricular-apple-original-2" class="btn-toBuy">Comprar Ahora</button>
-            </div>
-          </div>
-        </div>
-      </div>
+          </div></div>
     </div>
-      <br>
-      <br>
-      <hr>
-      <br>
-      <div class="logo"><img src="./img/vectores/logo android.png" width="60px" class="img-thumbnail" alt="..."></div>
-      <div class="col-3 col-lg-3 w-100">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div   data-aos="zoom-in-down" class="col">
-          <div class="card">
-            <img src="./img/productos/samsung auriculaes.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Auricular Samsung Original</h5>
-              <p class="card-text">Auricular  Original compatibles con todos los android</p>
-              <button id="aricular-samsung-original" class="btn-toBuy">Comprar Ahora</button>
-            </div>
-          </div>
+        <div class="logo"><img src="./img/vectores/logo android.png" width="60px" class="img-thumbnail" alt="..."></div>
+
+        <div class="row">
+            <div class="col-6 col-xl-4" data-aos="zoom-in"><div class="card">
+                <img src="./img/productos/samsung auriculaes.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Auricular Samsung Original</h5>
+                  <p class="card-text">Auricular  Original compatibles con todos los android</p>
+                  <button id="aricular-samsung-original" class="btn-toBuy">Comprar Ahora</button>
+                </div>
+              </div></div>
+            <div class="col-6 col-xl-4" data-aos="zoom-in"><div class="card">
+                <img src="./img/productos/usb tipoc.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title"> USB tipo C </h5>
+                  <p class="card-text"> USB tipo C compatibles con todos los android</p>
+                  <button id="usb-tipo-c" class="btn-toBuy">Comprar Ahora</button>
+                </div>
+              </div></div>
+            <div class="col-6 col-xl-4" data-aos="zoom-in"> <div class="card">
+                <img src="./img/productos/auricular inalambrico.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Auricular inalambrico</h5>
+                  <p class="card-text">Auricular inalambrico compatibles con  android</p>
+                  <button id="auricular-inalambrico-android" class="btn-toBuy">Comprar Ahora</button>
+                </div>
+              </div></div>
+            <div class="col-6 col-xl-4" data-aos="zoom-in"><div class="card">
+                <img src="./img/productos/usb normal.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">USB tipo normal</h5>
+                  <p class="card-text">USB  compatibles con android, cable general</p>
+                  <button id="usb-android" class="btn-toBuy">Comprar Ahora</button>
+                </div>
+              </div></div>
+              <div class="col-6 col-xl-4" data-aos="zoom-in"> <div class="card">
+                <img src="./img/productos/cabezal usb android.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Adaptador USB</h5>
+                  <p class="card-text">Adaptador USB  compatibles con android</p>
+                  <button id="adaptador-android" class="btn-toBuy">Comprar Ahora</button>
+                </div>
+              </div></div>
+              <div class="col-6 col-xl-4 " data-aos="zoom-in">
+                <div class="card">
+                    <img src="./img/productos/usb 2mteros metal.jpg"  class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">USB tipo C metal 2 Metros</h5>
+                      <p class="card-text">usb metal 2 Metros compatibles con android</p>
+                      <button id="usb-metal2metros-android" class="btn-toBuy">Comprar Ahora</button>
+                    </div>
+                  </div>
+              </div>
+
         </div>
-        <div  data-aos="zoom-in-down" class="col">
-          <div class="card">
-            <img src="./img/productos/usb tipoc.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title"> USB tipo C </h5>
-              <p class="card-text"> USB tipo C compatibles con todos los android</p>
-              <button id="usb-tipo-c" class="btn-toBuy">Comprar Ahora</button>
-            </div>
-          </div>
-        </div>
-        
-        <div data-aos="zoom-in" class="col">
-          <div class="card">
-            <img src="./img/productos/auricular inalambrico.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Auricular inalambrico</h5>
-              <p class="card-text">Auricular inalambrico compatibles con  android</p>
-              <button id="auricular-inalambrico-android" class="btn-toBuy">Comprar Ahora</button>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-      <br>
-      <div class="col-4 col-lg-3 w-100">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div data-aos="zoom-in" class="col">
-          <div class="card">
-            <img src="./img/productos/usb normal.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">USB tipo normal</h5>
-              <p class="card-text">USB  compatibles con android, cable general</p>
-              <button id="usb-android" class="btn-toBuy">Comprar Ahora</button>
-            </div>
-          </div>
-        </div>
-        <div data-aos="zoom-in" class="col">
-          <div class="card">
-            <img src="./img/productos/cabezal usb android.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Adaptador USB</h5>
-              <p class="card-text">Adaptador USB  compatibles con android</p>
-              <button id="adaptador-android" class="btn-toBuy">Comprar Ahora</button>
-            </div>
-          </div>
-        </div>
-        
-        <div data-aos="zoom-in" class="col">
-          <div class="card">
-            <img src="./img/productos/usb 2mteros metal.jpg"  class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">USB tipo C metal 2 Metros</h5>
-              <p class="card-text">usb metal 2 Metros compatibles con android</p>
-              <button id="usb-metal2metros-android" class="btn-toBuy">Comprar Ahora</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-      
-   </div>
-<hr>
-<div class="col-5 col-lg-3 w-100">
-<footer data-aos="fade-up"
+    <footer data-aos="fade-up"
 data-aos-anchor-placement="top-bottom" class="footer">
     <div class="grupo-1">
     
@@ -239,16 +213,11 @@ data-aos-anchor-placement="top-bottom" class="footer">
     </div>
 
 </footer>
-</div>
-</div>
-
-
-
-
-    <script src="./js/js.js"></script>
+<script src="./js/js.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-    </script>    
+    </script> 
+    
 </body>
 </html>
